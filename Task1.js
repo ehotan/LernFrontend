@@ -8,7 +8,6 @@ for (let oct = '#'; oct.length <= n; oct += '#') {
 console.log (text);
 
 
-
 /* function addOct () {
     oct += "#";
 }
