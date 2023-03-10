@@ -1,11 +1,7 @@
 "use strict"
 
-
-
 //Решения 3 задачи "в лоб"
 
-
-/* 
 let maxLength = 3;
 let chess = '';
 
@@ -25,7 +21,6 @@ for (let i = 0; i < maxLength; i++ ) {
 }
 console.log (chess);
 
- */
 
 
 
