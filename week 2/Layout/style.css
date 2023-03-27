@@ -62,13 +62,12 @@
 }
 
 .main {
-    height: 100%;
+    height: 100vh;
     display: flex;
 }
 
 .main__left-menu {
     width: 100px;
-    height: 100%;
     background-color: rgb(187, 187, 187);
     display: flex;
     flex-direction: column;
@@ -100,7 +99,47 @@
 }
 
 .main__sidebar {
+    width: 360px;
+    padding-top: 30px;
     background-color: burlywood;
+}
+
+.main__sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+} 
+
+
+.main__sidebar-content__head {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    row-gap: 40px;
+} 
+
+.top {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.top-head {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
+.sidebar__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }
 
 .main__content {
