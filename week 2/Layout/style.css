@@ -1,7 +1,25 @@
+
+
+@font-face {
+    font-family: 'Roboto';
+    src:  local('Roboto Bold'), 
+    local('Roboto-Bold'), 
+    url("fonts/roboto/Robotobold.woff2") format('woff2'), 
+    url("fonts/roboto/Robotobold.woff") format('woff'), 
+    url("fonts/roboto/Robotobold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #F7F8FA;
+    font-family: 'Roboto';
+}
+
 .header {
     height: 100px;
     width: 100%;
-    background-color: aquamarine;
+    border-bottom: 2px solid #EDEFF2;
     display: flex;
     justify-content: space-between;
     align-items: center;
